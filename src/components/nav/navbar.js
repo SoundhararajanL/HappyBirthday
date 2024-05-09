@@ -21,7 +21,7 @@ const Navbar = () => {
     
       
       <a className='nav-text' href="/gallery">Gallery🎴</a>
-      <a className='nav-text' href="/Messages">Messages💬</a>
+      <a className='nav-text' href="/book">Book💬</a>
 
      
       <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/start")}>Start💕</a>

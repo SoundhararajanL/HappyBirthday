@@ -4,6 +4,7 @@ font-family: 'Rock Salt', cursive;
 font-family: 'La Belle Aurore', cursive;
 font-family: 'Sedgwick Ave Display', cursive;
 */
+
 .name{
   text-align:center;
   
@@ -50,7 +51,7 @@ html,body{height:100%; margin:0px; padding:0;}
 }
 .name{
   text-align:center;
-  width:60%;
+  width:40%;
   margin:0 auto;
   position:absolute;
   top:0;

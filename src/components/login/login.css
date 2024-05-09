@@ -326,7 +326,7 @@ h1 {
 }
 
 .wrong-entry {
-  -webkit-animation: wrong-log 1.1s; /* Adjusted animation duration */
+  -webkit-animation: wrong-log 2.1s; /* Adjusted animation duration */
   animation: wrong-log 2.1s; /* Adjusted animation duration */
 }
 

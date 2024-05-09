@@ -17,6 +17,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./whatapp.css";
+import dp from "../images/whatapp/no-dp.jpg"
+import surya from "../images/whatapp/surya.jpg"
+import care from "../images/whatapp/care.jpg"
+import friend from "../images/whatapp/friend.jpg"
+import College from "../images/whatapp/collage.jpg"
+import rio from "../images/whatapp/rio.jpg"
+import bike from "../images/whatapp/bike.jpg"
+import trip  from "../images/whatapp/trip.jpg"
+import happy  from "../images/whatapp/happy.jpg"
+
+
+
+
+
 
 const WhatsappStart = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -47,7 +61,7 @@ const WhatsappStart = () => {
       <aside className="a1-column aside">
         <div className="a1-row a1-center-items-v a1-justify-items a1-half-padding-tb a1-padding-lr bg-left-panel-header a1-spaced-items border-r">
           <img
-            src="https://i.ibb.co/KK52Gp5/aviv-profile.jpg"
+            src={dp}
             className="profile-pic"
             alt="Profile Picture"
           />
@@ -66,7 +80,7 @@ const WhatsappStart = () => {
           >
             
             <img
-              src="https://i.ibb.co/fnBBPZp/old-man.jpg"
+              src={dp}
               className="profile-pic side-friend-profile-pic"
               alt="Profile Picture"
             />
@@ -78,7 +92,7 @@ const WhatsappStart = () => {
               <div className="a1-row a1-center-items-v a1-justify-items a1-long">
                 <span className="message-preview">
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
-                  <span>Thanks Dad</span>
+                  <span>Hmm save pannitan..</span>
                 </span>
                 <div className="a1-row a1-center-items-v a1-half-spaced-items">
                   <div className="a1-row a1-center-items-h a1-center-items-v pin-wrap">
@@ -94,7 +108,7 @@ const WhatsappStart = () => {
 
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/GnwGL2s/mom.jpg"
+            src={care}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -118,7 +132,7 @@ const WhatsappStart = () => {
 
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/0nvDvbw/noam.jpg"
+            src={surya}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -132,7 +146,7 @@ const WhatsappStart = () => {
 
               <div class="a1-row a1-center-items-v a1-half-spaced-items">
                 <span class="a1-row a1-center-items-h a1-center-items-v notification">
-                  100
+                  19
                 </span>
                 <FontAwesomeIcon icon={faChevronDown} className="icon-color" />
               </div>
@@ -141,7 +155,7 @@ const WhatsappStart = () => {
         </div>
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/1Tw1wbP/efraim.jpg"
+            src={happy}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -159,7 +173,7 @@ const WhatsappStart = () => {
 
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/1Tw1wbP/efraim.jpg"
+            src={friend}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -176,7 +190,7 @@ const WhatsappStart = () => {
         </div>
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/0nvDvbw/noam.jpg"
+            src={College}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -199,7 +213,7 @@ const WhatsappStart = () => {
         </div>
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/1Tw1wbP/efraim.jpg"
+            src={rio}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -216,7 +230,7 @@ const WhatsappStart = () => {
         </div>
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/1Tw1wbP/efraim.jpg"
+            src={bike}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -233,7 +247,7 @@ const WhatsappStart = () => {
         </div>
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
           <img
-            src="https://i.ibb.co/1Tw1wbP/efraim.jpg"
+            src={trip}
             class="profile-pic side-friend-profile-pic"
             alt="Profile Picture"
           />
@@ -260,7 +274,7 @@ const WhatsappStart = () => {
               />
             )}
             <img
-              src="https://i.ibb.co/fnBBPZp/old-man.jpg"
+              src={dp}
               className="profile-pic"
               alt="Profile Picture"
             />
@@ -276,72 +290,71 @@ const WhatsappStart = () => {
         <div className="a1-column a1-long a1-elastic">
           <div className="chat-container a1-column a1-long a1-elastic chat-main a1-spaced-items">
             <div class="text text-recieved">
-              <p>Hey son!</p>
-              <span class="timestamp a1-row a1-end">19:12</span>
+              <p>Hii...</p>
+              <span class="timestamp a1-row a1-end">5:12 pm</span>
             </div>
             <div class="text text-recieved">
-              <p>Where are you?</p>
-              <span class="timestamp a1-row a1-end">19:12</span>
+              <p>I am *******, today ungala pathen green shirt thana?</p>
+              <span class="timestamp a1-row a1-end">5:12 pm</span>
             </div>
 
             <div class="text text-sent">
-              <p>On my way dad</p>
+              <p>Hey hii, enga patha...</p>
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
-                <span>19:13</span>
+                <span>5:13 pm</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
               </div>
             </div>
 
             <div class="text text-recieved">
-              <p>Great, I'm making burgers today 🍔🍔🍔</p>
-              <span class="timestamp a1-row a1-end">19:13</span>
+              <p>****** kitta pathen car la poitu irunthinga</p>
+              <span class="timestamp a1-row a1-end">5:13 pm</span>
             </div>
 
             <div class="text text-sent">
-              <p>That sounds good 🤤🤤</p>
+              <p>kuptu irunthurukalam la</p>
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
-                <span>19:13</span>
+                <span>5:13 pm</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
               </div>
             </div>
 
             <div class="text text-recieved">
-              <p>By the way, how's your project going?</p>
-              <span class="timestamp a1-row a1-end">19:24</span>
+              <p>Neenga busy a drive pannitu irunthinga</p>
+              <span class="timestamp a1-row a1-end">5:24 pm</span>
             </div>
 
             <div class="text text-sent">
-              <p>Recreating WhatsApp Web or LogiNow?</p>
+              <p>summa unga vtu valiya ponen</p>
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
-                <span>19:13</span>
+                <span>5:24 pm</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
               </div>
             </div>
 
             <div class="text text-recieved">
-              <p>Both!</p>
-              <span class="timestamp a1-row a1-end">19:18</span>
+              <p>Hmm</p>
+              <span class="timestamp a1-row a1-end">5:25 pm</span>
             </div>
 
             <div class="text text-sent">
               <p>
-                Both are going very well, LogiNow still needs some fixes and
-                minor changes but I hope it will be ready for publish soon!
+                Epdy iruka, mobile eppo vanguna sollavae ella.....
               </p>
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
-                <span>19:13</span>
+                <span>5:25 pm</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
               </div>
             </div>
 
             <div class="text text-recieved">
-              <p>Amazing, keep up the good work</p>
-              <span class="timestamp a1-row a1-end">19:25</span>
+              <p>leave la than, this is my number</p>
+              <span class="timestamp a1-row a1-end">5:30 pm</span>
             </div>
             <div class="text text-sent">
-              <p>Thanks Dad</p>
+              <p>Hmm save pannitan..</p>
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
-                <span>19:13</span>
+                <span>5:30 pm</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
               </div>
             </div>

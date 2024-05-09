@@ -20,12 +20,12 @@ const Navbar = () => {
       <span className="mah"></span>
     
       
-      <a className='nav-text' href="/Gallary">Gallery</a>
-      <a className='nav-text' href="/Messages">Messages</a>
+      <a className='nav-text' href="/gallery">Gallery🎴</a>
+      <a className='nav-text' href="/Messages">Messages💬</a>
 
      
-      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/start")}>Start</a>
-      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/end")}>End</a>
+      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/start")}>Start💕</a>
+      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/end")}>End💔</a>
 
       <a href="javascript:void(0);" className="icon" onClick={handleToggle}>
         <i className="fa fa-bars"></i>

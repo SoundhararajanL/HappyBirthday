@@ -19,6 +19,7 @@
   =============== */
   .a1-full-height {
     height: 100%;
+   
   }
   
   .a1-self-center {
@@ -69,6 +70,7 @@
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
+    
   }
   
   .a1-row.a1-end,
@@ -540,3 +542,5 @@
       top: 0;
     }
   }
+
+ 

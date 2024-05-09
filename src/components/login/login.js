@@ -71,7 +71,7 @@ const PandaLogin = () => {
         </div>
         <form>
           <div className="hand"></div>
-          <div className="hand rgt"></div>
+          <div className="hand rgt"></div> 
           <h1>M*******ty</h1>
 
           <div className="form-group">
@@ -81,7 +81,7 @@ const PandaLogin = () => {
              
               className="form-control"
               value={password}
-              onChange={handlePasswordChange} // Added onChange event to track password input
+              onChange={handlePasswordChange} 
               onFocus={handlePasswordFocus}
               onBlur={handlePasswordBlur}
               onMouseMove={handleMouseMove}

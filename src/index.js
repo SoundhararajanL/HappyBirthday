@@ -8,7 +8,9 @@ import Home from "./components/home/home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import WhatsappStart from "./components/whatapp/whatapp";
-import PandaLogin from "./components/login/login";
+
+import WhatappEnd from "./components/whatapp/whatEnd";
+import Gallery from "./components/gallery/gallery";
 AOS.init();
 ReactDOM.render(
   <BrowserRouter>
@@ -16,7 +18,11 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
 
       <Route path="/whatsapp/start" element={<WhatsappStart />} />
+      <Route path="/whatsapp/end" element={<WhatappEnd />} />
+
       <Route path="/home" element={<Home />} />
+      <Route path="/gallery" element={<Gallery />} />
+
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

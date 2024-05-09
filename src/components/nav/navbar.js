@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import 'font-awesome/css/font-awesome.min.css'; // Import Font Awesome CSS
+import { NavLink } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 import './navbar.css';
 
 const Navbar = () => {
@@ -9,23 +10,16 @@ const Navbar = () => {
     setIsResponsive(!isResponsive);
   };
 
-  const handleNavigation = (path) => {
-    // Navigate to the specified path
-    window.location.href = path;
-  };
-
   return (
     <div className={`topnav ${isResponsive ? 'responsive' : ''}`} id="myTopnav">
       
       <span className="mah"></span>
     
-      
-      <a className='nav-text' href="/gallery">Gallery🎴</a>
-      <a className='nav-text' href="/book">Book💬</a>
+      <NavLink className='nav-text' to="/gallery">Gallery🎴</NavLink>
+      <NavLink className='nav-text' to="/book">Book💬</NavLink>
 
-     
-      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/start")}>Start💕</a>
-      <a className='nav-text' href="#" onClick={() => handleNavigation("/whatsapp/end")}>End💔</a>
+      <NavLink className='nav-text' to="/whatsappstart">Start💕</NavLink>
+      <NavLink className='nav-text' to="/whatsappend">End💔</NavLink>
 
       <a href="javascript:void(0);" className="icon" onClick={handleToggle}>
         <i className="fa fa-bars"></i>

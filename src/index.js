@@ -18,8 +18,8 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
 
-      <Route path="/whatsapp/start" element={<WhatsappStart />} />
-      <Route path="/whatsapp/end" element={<WhatappEnd />} />
+      <Route path="/whatsappstart" element={<WhatsappStart />} />
+      <Route path="/whatsappend" element={<WhatappEnd />} />
 
       <Route path="/home" element={<Home />} />
       <Route path="/gallery" element={<Gallery />} />

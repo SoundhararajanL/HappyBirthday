@@ -12,6 +12,7 @@ import WhatsappStart from "./components/whatapp/whatapp";
 import WhatappEnd from "./components/whatapp/whatEnd";
 import Gallery from "./components/gallery/gallery";
 import Book from "./components/book/book";
+import Quotes from "./components/quotes/quotes";
 AOS.init();
 ReactDOM.render(
   <BrowserRouter>
@@ -24,6 +25,8 @@ ReactDOM.render(
       <Route path="/home" element={<Home />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/book" element={<Book />} />
+      <Route path="/quotes" element={<Quotes />} />
+
 
 
     </Routes>

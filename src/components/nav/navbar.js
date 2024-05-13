@@ -20,6 +20,8 @@ const Navbar = () => {
 
       <NavLink className='nav-text' to="/whatsappstart">Start💕</NavLink>
       <NavLink className='nav-text' to="/whatsappend">End💔</NavLink>
+      <NavLink className='nav-text' to="/quotes">❝Quotes❞</NavLink>
+
 
       <a href="javascript:void(0);" className="icon" onClick={handleToggle}>
         <i className="fa fa-bars"></i>

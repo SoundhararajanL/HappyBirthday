@@ -14,6 +14,12 @@ import rose from "../images/gallery/rose.png"
 import selfie from "../images/gallery/selfie.png"
 import tshirt from "../images/gallery/t-shirt.png"
 
+// 13-may-24
+import depression from "../images/gallery/depression.jpg"
+import dog from "../images/gallery/dog.jpg"
+import marsmellow from "../images/gallery/marsmellow.jpg"
+
+
 function Gallery() {
   return (
     <div>
@@ -38,6 +44,13 @@ function Gallery() {
             <div className="image image-11" style={{ backgroundImage: `url(${rose})` }}></div>  
             <div className="image image-12" style={{ backgroundImage: `url(${selfie})` }}></div>  
             <div className="image image-13" style={{ backgroundImage: `url(${tshirt})` }}></div>  
+          </div> 
+
+          <div className="image-row">
+            <div className="image image-10" style={{ backgroundImage: `url(${depression})` }}></div>  
+            <div className="image image-11" style={{ backgroundImage: `url(${dog})` }}></div>  
+            <div className="image image-12" style={{ backgroundImage: `url(${marsmellow})` }}></div>  
+            
           </div> 
       </div>  
     </div>

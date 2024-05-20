@@ -1,8 +1,4 @@
-body {
-    background-color: aliceblue;
-    font: 16px/1.6 "Montserrat", sans-serif;
-  }
-  
+
   article {
     max-width: 57rem;
     min-width: 300px;
@@ -14,7 +10,8 @@ body {
   }
   article h1 {
     text-align: center;
-    font: 2rem/1.6 "Gloria Hallelujah", cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+
     color: #227;
   }
   article blockquote {

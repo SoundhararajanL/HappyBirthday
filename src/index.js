@@ -13,6 +13,8 @@ import WhatappEnd from "./components/whatapp/whatEnd";
 import Gallery from "./components/gallery/gallery";
 import Book from "./components/book/book";
 import Quotes from "./components/quotes/quotes";
+import VideoGallery from "./videoGallery/videogallery";
+
 AOS.init();
 ReactDOM.render(
   <BrowserRouter>
@@ -26,8 +28,7 @@ ReactDOM.render(
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/book" element={<Book />} />
       <Route path="/quotes" element={<Quotes />} />
-
-
+      <Route path="/videos" element={<VideoGallery/>} />
 
     </Routes>
   </BrowserRouter>,

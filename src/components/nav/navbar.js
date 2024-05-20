@@ -17,7 +17,10 @@ const Navbar = () => {
         Start💕
       </NavLink>
       <NavLink className="nav-text" to="/gallery">
-        Gallery🎴
+        Images🎴
+      </NavLink>
+      <NavLink className="nav-text" to="/videos">
+        videos▶
       </NavLink>
       <NavLink className="nav-text" to="/book">
         Book💬
@@ -26,7 +29,7 @@ const Navbar = () => {
         ❝Quotes❞
       </NavLink>
       <NavLink className="nav-text" to="/whatsappend">
-        End💔
+        Now💔
       </NavLink>
 
       <a href="javascript:void(0);" className="icon" onClick={handleToggle}>

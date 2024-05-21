@@ -43,7 +43,7 @@
     align-items: normal; /* Change 'normal' to 'center' */
   }
   
-  .video-popup {
+  .video-popup { 
     position: relative;
     width: auto;
     height: auto;

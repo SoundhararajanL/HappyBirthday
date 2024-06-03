@@ -34,7 +34,7 @@ function Book() {
           onChange={handleChangePage}
         />
         <label className="page" htmlFor="page-5">
-          <h2>24/4/2024</h2>
+          <h2>06/07/2024</h2>
           <p>
             இதயத்தில் நீ இருந்தால் மறந்து விடலாம்.. ஆனால் இதயமே நீயாக இருந்தால்
             எப்படி மறப்பது?.

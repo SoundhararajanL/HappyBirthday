@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import { NavLink } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import "./navbar.css";
@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`topnav ${isResponsive ? "responsive" : ""}`} id="myTopnav">
+    <div className={`topnav ${isResponsive ? "responsive" : ""}`} id="myTopnav">  
       <span className="mah"></span>
       <NavLink className="nav-text" to="/whatsappstart">
         Start💕
@@ -22,11 +22,14 @@ const Navbar = () => {
       <NavLink className="nav-text" to="/videos">
         videos▶
       </NavLink>
+      <NavLink className="nav-text" to="/songs">
+        Songs♪
+      </NavLink>
       <NavLink className="nav-text" to="/book">
         Book💬
       </NavLink>
       <NavLink className="nav-text" to="/quotes">
-        ❝Quotes❞
+        ❝Quotes❞ 
       </NavLink>
       <NavLink className="nav-text" to="/whatsappend">
         Now💔
@@ -38,5 +41,5 @@ const Navbar = () => {
     </div>
   );
 };
-
+ 
 export default Navbar;

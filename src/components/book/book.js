@@ -12,8 +12,8 @@ function Book() {
 
   return (
     <div
-      
-    >
+   
+    > 
       <div className="book">
         <input
           type="radio"

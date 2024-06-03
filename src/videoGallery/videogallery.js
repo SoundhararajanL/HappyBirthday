@@ -30,7 +30,7 @@ import video25 from "./videos/video25.MP4";
 import video26 from "./videos/video26.MP4";
 import video27 from "./videos/video27.MP4";
 import video28 from "./videos/video28.MP4";
-import video29 from "./videos/video29.MP4";
+import video29 from "./videos/video29.MP4"; 
 import video30 from "./videos/video30.MP4";
 import video31 from "./videos/video31.MP4";
 import video32 from "./videos/video32.MP4";

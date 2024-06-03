@@ -103,8 +103,8 @@ const WhatsappStart = () => {
 
                 </div>
               </div>
-            </div>
-          </div>
+            </div>    
+          </div> 
         </div>
 
         <div class="a1-row a1-center-items-v a1-padding a1-justify-items a1-spaced-items border-b friend">
@@ -206,7 +206,7 @@ const WhatsappStart = () => {
               <div class="a1-row a1-center-items-v a1-half-spaced-items">
                 <span class="a1-row a1-center-items-h a1-center-items-v notification">
                   3
-                </span>
+                </span> 
                 <FontAwesomeIcon icon={faChevronDown} className="icon-color" />
               </div>
             </div>
@@ -342,13 +342,13 @@ const WhatsappStart = () => {
 
             <div class="text text-recieved">
               <p>first na edhukku ungakita pesanum bye ..</p>
-              <span class="timestamp a1-row a1-end">1:00 am</span>
+              <span class="timestamp a1-row a1-end">1:00 am</span> 
             </div>
 
             <div class="text text-sent">
               <p>
                 pls , edhachi problem na sollu.. pesama irukatha .. cl me!!
-              </p>
+              </p> 
               <div class="a1-row a1-end a1-half-spaced-items timestamp">
                 <span>1:10 am</span>
                 <FontAwesomeIcon icon={faCheckDouble} className="blue" />
@@ -356,12 +356,12 @@ const WhatsappStart = () => {
             </div>
 
             <div class="text text-recieved">
-              <p>unga kita pesa istam illa. bye ..</p>
+              <p>unga kita pesa istam illa. bye ..</p> 
               <span class="timestamp a1-row a1-end">1:20 am</span>
             </div>
             <div class="text text-recieved">
               <p>block panren bye ..</p>
-              <span class="timestamp a1-row a1-end">1:20 am</span>
+              <span class="timestamp a1-row a1-end">1:20 am</span> 
             </div>
             <div class="text text-sent">
               <p>hey....😢</p>
@@ -379,7 +379,7 @@ const WhatsappStart = () => {
             </div>
             <div class="text text-sent">
               <p>hello.. epdy pathilaye pona epdy ??</p>
-              <div class="a1-row a1-end a1-half-spaced-items timestamp">
+              <div class="a1-row a1-end a1-half-spaced-items timestamp"> 
                 <span>1:21 am</span>
                 <FontAwesomeIcon icon={faCheck} className="gray" />
               </div>
@@ -430,4 +430,4 @@ const WhatsappStart = () => {
   );
 };
 
-export default WhatsappStart;
+export default WhatsappStart;   

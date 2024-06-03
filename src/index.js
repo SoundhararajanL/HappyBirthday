@@ -8,12 +8,13 @@ import Home from "./components/home/home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import WhatsappStart from "./components/whatapp/whatapp";
-
 import WhatappEnd from "./components/whatapp/whatEnd";
 import Gallery from "./components/gallery/gallery";
 import Book from "./components/book/book";
 import Quotes from "./components/quotes/quotes";
 import VideoGallery from "./videoGallery/videogallery";
+import Songs from "./songs/songs";   
+
 
 AOS.init();
 ReactDOM.render(
@@ -29,6 +30,9 @@ ReactDOM.render(
       <Route path="/book" element={<Book />} />
       <Route path="/quotes" element={<Quotes />} />
       <Route path="/videos" element={<VideoGallery/>} />
+      <Route path="/songs" element={<Songs/>} />
+      
+
 
     </Routes>
   </BrowserRouter>,
